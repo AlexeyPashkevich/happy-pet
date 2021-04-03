@@ -1,0 +1,1995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HappyPet</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header-main" style="background-image: url(images/header-bg.png);">
+			<div class="container">
+				<div class="header__top">
+					<a class="header__logo" href="#">
+						<img src="images/header-logo.svg" alt="">
+					</a>
+					<button class="menu-btn">
+						<div class="menu-btn__row"></div>
+						<div class="menu-btn__row"></div>
+						<div class="menu-btn__row"></div>
+					</button>
+					<nav class="menu">
+						<ul class="menu-list">
+							<li class="menu-list__item">
+								<a class="menu-list__link active" href="#">Главная</a>
+							</li>
+							<li class="menu-list__item menu-list__item--friends">
+								<a class="menu-list__link menu-list__link--friends" href="#">Друзья</a>
+								<div class="friends">
+									<div class="friends__inner">
+										<div class="friends__box">
+											<div class="friends__box-item">
+												<img class="friends-category" src="images/category-img-1.svg" alt="">
+												<a class="friends__category tab" href="#category-1">Собаки</a>
+											</div>
+											<div class="friends__box-item ">
+												<img class="friends-category" src="images/category-img-2.svg" alt="">
+												<a class="friends__category tab" href="#category-2">Кошки</a>
+											</div>
+											<div class="friends__box-item ">
+												<img class="friends-category" src="images/category-img-3.svg" alt="">
+												<a class="friends__category tab" href="#category-3">Грызуны</a>
+											</div>
+											<div class="friends__box-item">
+												<img class="friends-category" src="images/category-img-4.svg" alt="">
+												<a class="friends__category tab" href="#category-4">Обезьяны</a>
+											</div>
+										</div>
+										<div class="friends__box">
+											<div class="friends__box-item">
+												<img class="friends-category" src="images/category-img-5.svg" alt="">
+												<a class="friends__category tab" href="#category-5">Лошади</a>
+											</div>
+											<div class="friends__box-item">
+												<img class="friends-category" src="images/category-img-6.svg" alt="">
+												<a class="friends__category tab" href="#category-6">Рыбы</a>
+											</div>
+											<div class="friends__box-item">
+												<img class="friends-category" src="images/category-img-7.png" alt="">
+												<a class="friends__category tab" href="#category-7">Птицы</a>
+											</div>
+											<div class="friends__box-item">
+												<img class="friends-category" src="images/category-img-8.png" alt="">
+												<a class="friends__category tab" href="#category-8">Насекомые</a>
+											</div>
+										</div>
+									</div>
+									<div class="friends__items">
+										<div id="category-1" class="friends__content tab__content">
+											<div class="category">
+												<button class="close-category">X</button>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-1.svg" alt="">
+													<h2 class="category__title">
+														Собаки
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ПОРОДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Далматинец</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Доберман</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Бульдог</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Ротвейлер</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Грейхаунд</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Лабрадор</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сенбернар</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мопс</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для кожи и шерсти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для зубов и пасти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для глаз</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для ушей</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для лап</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА И КОСТИ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Дропсы и снеки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кости для собак</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Печенья</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Пушевка-полировка</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-2" class="friends__content tab__content">
+											<div class="category">
+												<div class="close-category">X</div>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-2.svg" alt="">
+													<h2 class="category__title">
+														Кошки
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ПОРОДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мейн-Кун</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сфинкс</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Рэгдолл</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Бурма</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мэйнкс</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Вислоухие</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Саванна</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сомали</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для кожи и шерсти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для зубов и пасти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для глаз</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для ушей</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для лап</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА И КОСТИ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кормы и снеки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кости для котов</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мокрый корм</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-3" class="friends__content tab__content">
+											<div class="category">
+												<div class="close-category">X</div>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-3.svg" alt="">
+													<h2 class="category__title">
+														Грызуны
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ВИДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Хомяк</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Морская Свинка</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мыши</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Крысы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Белка</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Дегу</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Гигиена. Антизапах</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Туалеты</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Расчески, щетки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Наполнители</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для лап</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Корма для хомяков</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Корма для шиншилл</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Корма для мышей</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Корма для крыс</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-4" class="friends__content tab__content">
+											<div class="category">
+												<div class="close-category">X</div>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-4.svg" alt="">
+													<h2 class="category__title">
+														Обезьяны
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ПОРОДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Классические</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Орангутаны</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Гориллы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Шимпанзе</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Гиббоновые</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Долгопятые</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для кожи и шерсти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для зубов и пасти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для глаз</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для ушей</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для лап</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА И КОСТИ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кормы и снеки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Бананы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мокрый корм</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-5" class="friends__content tab__content">
+											<div class="category category--5">
+												<button class="close-category">X</button>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-5.svg" alt="">
+													<h2 class="category__title">
+														Кошки
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															Лошади
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Арабская</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Аппалуза</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мустанг</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Морган</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Шайр</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Хафлингер</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Тинкер</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Брабансон</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для кожи и шерсти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для зубов и пасти</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для глаз</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для ушей</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для лап</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА И КОСТИ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кормы и снеки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сухпакеты</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мокрый корм</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-6" class="friends__content tab__content">
+											<div class="category category--6">
+												<button class="close-category">X</button>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-6.svg" alt="">
+													<h2 class="category__title">
+														Рыбы
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ПОРОДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Судак</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Берш</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Окунь</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Чоп</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Щука</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Ёрш</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Плотва</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Лещ</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Крем для пресноводных</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Крем для морских</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Крем для прудовых</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Крем для креветок</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Компрессоры</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кормы и снеки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сухпакеты</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Мокрый корм</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Пушевка-полировка</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-7" class="friends__content tab__content">
+											<div class="category category--7">
+												<button class="close-category">X</button>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-7.svg" alt="">
+													<h2 class="category__title">
+														Птицы
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ПОРОДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Попугаи</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Ласточки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Голуби</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Совы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Воробьи</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Синицы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Вороны</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для перьев и кожи</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для клюва</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для лап</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Для крыльев</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА И КОСТИ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кормы и снеки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="category-8" class="friends__content tab__content">
+											<div class="category category--8">
+												<button class="close-category">X</button>
+												<div class="category__head">
+													<img class="category__img" src="images/category-img-8.svg" alt="">
+													<h2 class="category__title">
+														Насекомые
+													</h2>
+												</div>
+												<div class="category__content-wrapper">
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ВИДЫ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Пауки</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Стрекозы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Тараканы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Клопы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Вши</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Бабочки</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															СРЕДСТВА УХОДА
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Террариумы</a>
+															</li>
+														</ul>
+													</div>
+													<div class="category__content">
+														<h3 class="category__title-menu">
+															ЛАКОМСТВА И КОСТИ
+														</h3>
+														<ul class="category-list">
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Кормы</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сухпакеты</a>
+															</li>
+															<li class="category-list__item">
+																<a class="category-list__link" href="contacts.html">Сушености</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="about.html">О сервисе</a>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__top-user">
+						<a class="header__basket" href="contacts.html">
+							<img src="images/basket.svg" alt="">
+						</a>
+						<a class="header__user-cash" href="#">5481р.</a>
+					</div>
+				</div>
+				<div class="header__content">
+					<h1 class="header__content-title wow animate__animated animate__fadeInDown" data-wow-duration="2s">
+						Твой друг с доставкой на дом
+					</h1>
+					<p class="header__content-text wow animate__animated animate__fadeInUp" data-wow-duration="2.5s">
+						Online-магазин домашних животных - прекрасное решение, когда лень выходить из дома
+					</p>
+					<a class="header__content-link wow animate__animated animate__fadeInLeft" data-wow-duration="3.5s"
+						data-wow-offset="100" href="products.html">
+						Посмотреть питомцев
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="benefits">
+				<div class="container">
+					<h2 class="benefits__title title wow animate__animated animate__bounceInDown" data-wow-duration="3s"
+						data-wow-offset="100">
+						Почему выбирают наших друзей
+					</h2>
+					<div class="benefits__items wow animate__animated animate__bounceInLeft wow" data-wow-offset="150"
+						data-wow-duration="3s" data-wow-delay="0s">
+						<div class="benefits__item">
+							<img class="benefits__item-img" src="images/benefit-item-1.svg" alt="">
+							<div class="benefits__item-info">
+								<h3 class="benefits__item-title">
+									Их много
+								</h3>
+								<p class="benefits__item-text">
+									Огромный выбор животных, птиц и питомцев
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item wow animate__animated animate__bounceInLeft wow" data-wow-offset="150"
+							data-wow-duration="3s" data-wow-delay="0.3s">
+							<img class="benefits__item-img" src="images/benefit-item-2.svg" alt="">
+							<div class="benefits__item-info">
+								<h3 class="benefits__item-title">
+									Их много
+								</h3>
+								<p class="benefits__item-text">
+									Огромный выбор животных, птиц и питомцев
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item wow animate__animated animate__bounceInLeft wow" data-wow-offset="150"
+							data-wow-duration="3s" data-wow-delay="0.6s">
+							<img class="benefits__item-img" src="images/benefit-item-3.svg" alt="">
+							<div class="benefits__item-info">
+								<h3 class="benefits__item-title">
+									Их много
+								</h3>
+								<p class="benefits__item-text">
+									Огромный выбор животных, птиц и питомцев
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="catalog">
+				<div class="container">
+					<h2 class="catalog__title title wow animate__animated animate__fadeInUp" data-wow-duratition="2s"
+						data-wow-offset="200">
+						Каталог животных
+					</h2>
+					<div class="catalog__tabs">
+						<div class="tabs">
+							<a class="tab tab--active slider-tab" href="#slider-content-1">Все</a>
+							<a class="tab slider-tab" href="#slider-content-2">Собаки</a>
+							<a class="tab slider-tab" href="#slider-content-3">Кошки</a>
+							<a class="tab slider-tab" href="#slider-content-4">Попугаи</a>
+							<a class="tab slider-tab" href="#slider-content-5">Хомяки</a>
+							<a class="tab slider-tab" href="#slider-content-6">Обезьяны</a>
+						</div>
+						<div class="tabs__content-wrapper">
+							<div id="slider-content-1" class="tab__content active">
+								<div class="slider-wrapp">
+									<div class="swiper-container catalog__slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-1.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Зенненхунд
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">3 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-2.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Джунгарский хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 400 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-3.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Ара
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item doberman">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-4.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Доберман
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-5.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Бенгальская кошка
+														</h4>
+														<p class="product__text">
+															Прекрасная подруга на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОШКА</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 200 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-6.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шимпанзе
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">12 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-7.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Скоттиш фолд
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">3 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-8.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-9.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Корелла
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-10.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Питбуль
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">8 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-11.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">3 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шотландский кот
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-6.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шимпанзе
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">12 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-11.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Бенгальская кошка
+														</h4>
+														<p class="product__text">
+															Прекрасная подруга на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОШКА</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 200 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+							</div>
+							<div id="slider-content-2" class="tab__content">
+								<div class="slider-wrapp">
+									<div class="swiper-container catalog__slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-1.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Доберман
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-1.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Доберман
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-1.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name ">
+															Доберман
+														</h4>
+														<p class="product__text ">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-1.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Доберман
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-1.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Доберман
+														</h4>
+														<p class="product__text">
+															Отличный новый друг для всей семьи, охраняет и обожает
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">СОБАКА</div>
+														<div class="product__tag product__tag--class">ХИЩНИК</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+							</div>
+							<div id="slider-content-3" class="tab__content">
+								<div class="slider-wrapp">
+									<div class="swiper-container catalog__slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шотландский кот
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шотландский кот
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шотландский кот
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шотландский кот
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-12.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Шотландский кот
+														</h4>
+														<p class="product__text">
+															Прекрасный друг на дождливые холодные времена
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">КОТ</div>
+														<div class="product__tag product__tag--class">МЫШКОЕДНЫЙ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">7 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+							</div>
+							<div id="slider-content-4" class="tab__content">
+								<div class="slider-wrapp">
+									<div class="swiper-container catalog__slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-3.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Ара
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-3.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Ара
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-3.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Ара
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-3.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Ара
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-3.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Попугай Ара
+														</h4>
+														<p class="product__text">
+															Новый глоток воздуха в вашем доме и прекрасная повторюшка
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ПОПУГАЙ</div>
+														<div class="product__tag product__tag--class">ПТИЦА</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">5 900 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+							</div>
+							<div id="slider-content-5" class="tab__content">
+								<div class="slider-wrapp">
+									<div class="swiper-container catalog__slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-2.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Джунгарский хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 400 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-2.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Джунгарский хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 400 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-2.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Джунгарский хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 400 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-2.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Джунгарский хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 400 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-2.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Джунгарский хомяк
+														</h4>
+														<p class="product__text">
+															Отличный новый мягкий друг для всей семьи
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ХОМЯК</div>
+														<div class="product__tag product__tag--class">ГРЫЗУН</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">2 400 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+							</div>
+							<div id="slider-content-6" class="tab__content">
+								<div class="slider-wrapp">
+									<div class="swiper-container catalog__slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-8.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-8.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-8.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-8.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+											<div class="swiper-slide catalog__slider-item">
+												<a class="product" href="products.html">
+													<img class="product__img" src="images/content/product-8.png" alt="">
+													<div class="product__heading">
+														<h4 class="product__name">
+															Горилла
+														</h4>
+														<p class="product__text">
+															Домашний питомец для тех , кому не хочется скучать
+														</p>
+													</div>
+													<div class="product__tags">
+														<div class="product__tag product__tag--family">ОБЕЗЬЯНА</div>
+														<div class="product__tag product__tag--class">ТРАВОЯДНАЯ</div>
+													</div>
+													<div class="product__bottom">
+														<div class="product__price">10 500 р.</div>
+														<div class="product__btn">
+															<img src="images/product-btn.svg" alt="">
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery section-page">
+				<div class="container">
+					<h2 class="gallery__title title wow animate__animated animate__fadeInDown" data-wow-offset="130"
+						data-wow-duration="2s">
+						Мы любим поиграть
+					</h2>
+					<div class="gallery__items">
+						<div class="gallery__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.3s"
+							data-wow-duration="2s" data-wow-offset="100" style="background-image: url(images/content/gallery-1.jpg);">
+						</div>
+						<div class="gallery__item animate__animated animate__fadeInRight wow" data-wow-delay="0.6s"
+							data-wow-duration="2s" data-wow-offset="100" style="background-image: url(images/content/gallery-2.jpg);">
+						</div>
+						<div class="gallery__item animate__animated animate__fadeInUp wow" data-wow-delay="0.9s"
+							data-wow-duration="2s" data-wow-offset="100" style="background-image: url(images/content/gallery-3.jpg);">
+						</div>
+						<div class="gallery__item animate__animated animate__fadeInDown wow" data-wow-delay="1.2s"
+							data-wow-duration="2s" data-wow-offset="100" style="background-image: url(images/content/gallery-4.jpg);">
+						</div>
+						<div class="gallery__item animate__animated animate__fadeInLeft wow" data-wow-delay="1.5s"
+							data-wow-duration="2s" data-wow-offset="100" style="background-image: url(images/content/gallery-5.jpg);">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info">
+				<div class="container">
+					<h2 class="info__title title wow animate__animated animate__fadeInDown" data-wow-offset="150" data-wow-duration="2s">
+						О питомнике Happy Pet
+					</h2>
+					<h4 class="info__content-title wow animate__animated animate__fadeInLeft" data-wow-offset="120"
+						data-wow-duration="2s">
+						Мы - команда мечтателей
+					</h4>
+					<div class="info__inner">
+						<div class="info__content wow animate__animated animate__fadeInLeft" data-wow-offset="120"
+							data-wow-duration="2s">
+							<div class="info__content-text">
+								<p>
+									Нашей главной специализацией является производство клематисов. В нашей коллекции имеется более 450
+									видов
+									и
+									сортов
+									клематиса, но для коммерческих целей мы производим только немногим более 280 экземпляров клематиса
+									Ломоноса – клематисы
+									с большим и маленьким цветком, а также стелющиеся формы клематиса в широком диапазоне.
+								</p>
+								<p>
+									У нас также есть дополнительная специальность вьющиеся растения которые могут расти в саду в польских
+									климатических
+									условиях; мы производим более сотни видов и сортов таких растений.
+								</p>
+							</div>
+							<a class="info__content-link wow animate__animated animate__fadeInLeft" data-wow-offset="120"
+								data-wow-duration="2s" href="about.html">Читать больше</a>
+						</div>
+						<img class="info__img wow animate__animated animate__fadeInRight" data-wow-offset="120"
+							data-wow-duration="2s" src="images/info-img.jpg" alt="">
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__social footer__box--1">
+						<a class="footer__logo" href="#">
+							<img src="images/footer-logo.svg" alt="">
+						</a>
+						<ul class="footer__social-list">
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="contacts.html">
+									<img class="footer__social-img" src="images/instagram.png" alt="">
+								</a>
+							</li>
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="contacts.html">
+									<img class="footer__social-img" src="images/facebook.png" alt="">
+								</a>
+							</li>
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="contacts.html">
+									<img class="footer__social-img" src="images/youtube.png" alt="">
+								</a>
+							</li>
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="contacts.html">
+									<img class="footer__social-img" src="images/tik-tok.png" alt="">
+								</a>
+							</li>
+						</ul>
+						<p class="footer__copy">
+							2014 - 2021 © Happy pet Все права защищены
+						</p>
+					</div>
+					<div class="footer__list footer__box footer__box--2">
+						<h4 class="footer__list-title">
+							ОСНОВНОЕ
+						</h4>
+						<ul class="footer-list">
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Главная</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Друзья</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">О сервисе</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__list footer__box footer__box--3">
+						<h4 class="footer__list-title">
+							АКТИВНОСТИ
+						</h4>
+						<ul class="footer-list">
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Покупки</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Телеграмм - группа</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Как выбирать товар</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="about.html">Беспроцентная рассрочка</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__list footer__box footer__box--4">
+						<h4 class="footer__list-title">
+							КОКОНТАКТЫ
+						</h4>
+						<ul class="footer-list">
+							<li class="footer-list__item">
+								<a class="footer-list__link footer-list__link-phone"
+									href="mailto:happypet@gmail.com">happypet@gmail.com</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link footer-list__link-order" href="#">Заказать звонок</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="tel:+74993503575">+7 (499) 350-3575</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__list-inner footer__box footer__box--5">
+						<div class="footer__list ">
+							<h4 class="footer__list-title">
+								ЗВОНИТЕ
+							</h4>
+							<ul class="footer-list">
+								<li class="footer-list__item">
+									<a class="footer-list__link footer-list__link-telephonenumber footer-list__link-telephonenumber--1"
+										href="tel:+380504246343">+38 (050) 424-63-43</a>
+								</li>
+								<li class="footer-list__item">
+									<a class="footer-list__link footer-list__link-telephonenumber footer-list__link-telephonenumber--2"
+										href="tel:+74993503575">+7 (499) 350-3575</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__list footer__list-help">
+							<h4 class="footer__list-title">
+								ПОМОЩЬ
+							</h4>
+							<ul class="footer-list">
+								<li class="footer-list__item">
+									<a class="footer-list__link" href="about.html">Сообщить о проблеме</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
